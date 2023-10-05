@@ -1,0 +1,39 @@
+<!--!DOCTYPE serveix per dir-li al navegador que la versió de l'HTML és 5 i es troba en la primera línia del document.
+Aquest document serveix, per fer la taula en un document html "taula.html" que és vinculat a la pàgina de noticies Pràctica-2.html.-->
+<!DOCTYPE html>
+<!--L'html és el root del document.-->
+<html>
+    <!--En el head, conté metadates d'informació general. Tots els elements s'han de tancar al final amb la barra i l'element </>.-->
+    <head>
+        <!--Defeinció del joc de caràcters que ha d'usar el navegador per mostrar la pàgina-->
+        <meta charset="UTF-8">
+        <!--Title defineix el text de la pestanya.-->
+        <title>Espai publicitari</title>
+        <!--Link rel, enllaça a un document extern (EstilTaula.css) anomenat external CSS, en el metadata del head del document actual i serveix per definir l'estil de la taula.-->
+        <link rel="stylesheet" href="EstilTaula.css">
+    </head>
+    <!--L'element body, és el cos del document on conté la taula i que l'usuari veurà.-->
+    <body>
+        <!--El h1 és el titol-->
+        <h1> Espai publicitari</h1>
+        <!--Table és la taula que contindrà els jocs de l'anunci.-->
+        <table>
+            <!--Caption és el text del títol de la taula.-->
+            <caption>Alguns jocs</caption> 
+            <!--L'element tr, és la fila de les columnes, i per a cada fila es torna a posar l'element de nou. Dins de tr, table row, conté el table head "th" que és la primera fila i defineix les categories de cada columna en les files següents. Finalment les files consecutives es tracta de "td" on contenen totes les dades que ocupa la taula i el text normal ordenats segons les categories de les columnes, per cada td, es crea un tr primer, ja que necessita de les files prèviament.-->
+            <tr>
+                <th>Jocs</th>
+               <th>Plataformes</th>
+            </tr>
+            <tr>
+                <td>Stardewvalley</td>
+                <td>Pc, Xbox, Switch, ...</td>
+            </tr>
+            <tr>
+                <td>Starfield</td>
+                <td>Xbox, PC, Playstation, ...</td>
+            </tr>
+        </table>
+    </body>
+</html>
+<!--Al final del document es tanca tots els elements segons l'indetat.-->

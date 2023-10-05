@@ -1,0 +1,54 @@
+<!--Això és un comentari que no serà visible en la pàgina web, serveix per aportar informació i aclarar per a que serveix cada etiqueta.
+En aquest cas, primer parlaré del !DOCTYPE html, que li diu al navegador en qué versió de HTML está escrit aquest document (està escrit en la versió HTML5) i sempre es troba en la primera línia del document.-->
+<!DOCTYPE html>
+<!--L'element html, és el node pare del document, arrel (root).-->
+<html>
+    <!--L'element head, conté metadates d'informació general sobre la pàgina HTML.
+    Per definir on comença i on acaba un element sempre es tanca amb el mateix element però es fica una barra </> prèvia a aquest i comparteixen la mateixa distància en l'indentat per una major claretat.-->
+    <head>
+        <!--Defeinció del joc de caràcters que ha d'usar el navegador per mostrar la pàgina-->
+        <meta charset="UTF-8">
+        <!--L'element title, indica el títol de la pàgina, es mostrarà en la pestanya de la finestra del navegador.-->
+        <title>GamesNews</title>
+        <!--Per la pràctica 2 l'element style type, ha servit per definir l'estil del fons de l'element h2 amb un color en RGBA utilitzant CSS internal en el metadata del head.-->
+        <style type=>
+            h2 {
+                background-color:rgb(255, 232, 83);
+            }
+        </style>
+    <!--Primer element /head, que es tanca per delimitar.-->    
+    </head>
+    <!--L'element body, que defineix el cos del document i es renderitzat al navegador, també conté els elements que es veurà en la pàgina web, bàsicament body es la part visible de la pàgina web.-->
+    <body>
+        <!--L'element h1, defineix que el contingut que està dins de la capçalera té un títol d'una mida gran.
+        A més en la pràctica 2, l'hem centrat i aplicat color al text de h1 amb CSS inline amb les cometes definint l'estil.-->
+        <h1 style="color:orange;text-align:center;">Nintendo canceló este juego de Pokémon por ser demasiado bueno, y ahora lo puedes jugar</h1> 
+        <!--L'element h2 és un subtítol, però més petita, i així successivament, com més gran el número, més petita és la lletra.-->
+        <h2>Resucitan el juego oficial de Pokémon para navegadores que fue cancelado por ser demasiado bueno para su época.</h2>
+        <!--L'element p, defineix que el contingut és un paràgraf i lo mateix per començar cada paràgraf en un altra línia es posa un altre element p.-->
+        <p>Allá por el año 2000, con el fin de promocionar la película Pokémon 2: El Poder de Uno, la casa de los monstruos de bolsillo negoció con Warner Bros una campaña publicitaria bastante contundente. Como fruto de esta, Warner invirtió millones en el desarrollo de un juego oficial de Pokémon para navegadores llamado Pokémon 2000, al igual que la versión americana del filme.</p>
+        <p>CyberWorld, que había trabajado en un juego de Harry Potter y varias tiendas virtuales, lo dio todo en este título que, a través de una perspectiva en primera persona, invitaba a los jugadores a explorar un mundo superando varios desafíos con sus Pokémon. Para la época, era algo realmente rompedor, ya que se trataba de uno de los primeros juegos de navegador con gráficos 3D.</p>
+        <p>¿Y qué pasó entonces? Tal y como cuenta Eddie Ruminski, antiguo miembro del estudio, Nintendo “entró en pánico” al ver el éxito que estaba teniendo y decidió cerrar el grifo.</p>
+        <p>Aunque el canal Did You Know Gaming? ha querido que el público pruebe lo que ofrecía el juego de Pokémon que era demasiado bueno para existir, facilitando en el mismo vídeo los recursos para probarlo gratuitamente. ¿Le vais a dar una oportunidad? ¿Lograrán también resucitar por completo el desaparecido Pokémon Garden?</p>
+        <!--L'element img, incrusta una imatge en la pàgina web, i té dos atributs obligatoris i un per l'estil, l'atribut src (source) especifica la ruta (URL) de la imatge, alt és un text alternatiu per la imatge i style especifica el tamany de la imatge, l'amplada i l'altura.-->
+        <img src="https://nintenduo.com/wp-content/uploads/2023/09/Juego-Pokemon-Cancelado-00.webp" alt="Pikachu" style="width:900px;height:506px;">
+        <h3>Fuentes</h3>
+        <!--L'element ol, inicia una llista ordenada numèricament, cada element de la llista es comença amb li.-->
+        <ol>
+            <!--L'element a href=, aplica un enllaç al contingut o text (visible) posterior.-->
+            <li><a href="https://nintenduo.com/nintendo-juego-cancelado-pokemon-demasiado-bueno/">Nintendúo</a></li>
+            <li><a href="https://www.nintenderos.com/2023/09/juega-ya-a-este-pokemon-de-navegador-perdido-y-ahora-rescatado/">Nintenderos</li>
+            <li><a href="https://www.youtube.com/watch?v=7Fk6yDKhFR8">Youtube</a></li>
+        </ol>
+        <h4>Noticias de interés</h4>
+        <!--L'element ul, en canvi inicia una llista desordenada, i que cada element de la llista comença per li, marcats per petits cercles negres.-->
+        <ul>
+            <li>Pokémon GO trae a Barcelona un Pokémon imposible de capturar en España</li>
+            <li>Pokémon GO prepara un nuevo modo de juego que lo va a cambiar todo</li>
+            <li>Pokémon GO: Cómo conseguir y evolucionar a Fuecoco, Quaxly y Sprigatito, ¿salen Shiny?</li>
+        <!--Fem el tancament de tots els elements que conté l'html com ell mateix.-->
+        </ul>
+        <!--Per la pràctica 2 l'element a href, enllaça a una nova pàgina de taules desde la pàgina de noticies, sobre el text "Espai publicitari" al document taules.html que es troba en la mateixa ruta de Pràctica-2.html, amb una ruta relativa.-->
+        <a href="taules.html">Espai publicitari</a>
+    </body>
+</html>

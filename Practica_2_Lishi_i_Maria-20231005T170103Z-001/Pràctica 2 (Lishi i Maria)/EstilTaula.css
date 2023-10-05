@@ -1,0 +1,30 @@
+/* Aquest document .CSS, servirà per definir l'estil de la taula del document taules.html mitjançant de external CSS. */
+/* Iniciem la definició de l'estil de la taula en que té que estar centrada amb alaign o text-align, per tant els marges laterals son automàtics i el border-spacing defineix la separació entre els cuadres de la taula, en aquest cas és zero. */
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+} 
+/* Aquí al títol h1 el personalitzem amb el color lila, en negreta amb font-weight i per centrar text-align. */        
+h1 {
+        color: purple;
+        text-align: center;
+        font-weight: bold;
+}        
+/* Al títol de la taula "caption" li donem color blau, el centrem amb text-align i no té contorn. */
+caption {
+        color: blue;
+        text-align: center;
+}    
+/* Per th, la capçalera la personalitzem amb un color de fons gris amb background-color, centrem el text amb text-align, posar-lo en negreta amb font-weight i definim el contorn en negre perque queda més bonic. */
+th {
+        border: 1px solid #000;
+        font-weight: bold;
+        text-align: center;
+        background-color: gray;
+}
+/* En el td li apliquem un contorn de color negre. */    
+td {
+        border: 1px solid #000;        
+}
